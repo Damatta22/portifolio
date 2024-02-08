@@ -1,5 +1,5 @@
 import "./buttonsTop.css";
-import FlavioDaMata from "../../assets/Flávio da Mata.pdf";
+import FlavioDaMata from "../../../public/FlaviodaMata.pdf";
 
 export function ButtonsTop() {
   return (
@@ -9,7 +9,7 @@ export function ButtonsTop() {
       <button className="talkToMe">Talk To Me</button>
       <a
         className="Flavio"
-        href="/src/assets/Flávio da Mata.pdf"
+        href="/public/FlaviodaMata.pdf"
         download={FlavioDaMata}
       >
         Download my resume
