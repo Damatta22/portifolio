@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   
+  }
+
+  .body{
+    width: 100vw;
+  }
+
+  
+  .wrapper{
+
+   
+    background-image: url(./assets/parede-o-padrão.jpg);
+    background-size: cover;
+    overflow: hidden;
+    
+ 
+ 
+  }
+
+  .divisor{
+    background: linear-gradient(90deg, #2ad1f8 2.62%, #8a58b9 93.38%);
+    width:80vw;
+    height: 5px;
+  }

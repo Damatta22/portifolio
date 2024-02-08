@@ -1,0 +1,52 @@
+.social {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    margin-top:5%;
+    margin-bottom: 5%;
+    margin-left: 20px;
+   
+  
+    a {
+      height: 60px;
+      width: 60px;
+      border: 1px solid white;
+      border-radius: 50px;
+  
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+  
+    
+  }
+
+  @media (min-width: 768px){
+
+
+    .social {
+      display: flex;
+      align-items: center;
+      gap: 34px;
+      margin-top:5%;
+      margin-bottom: 5%;
+      margin-left: 36%;
+   
+    
+      a {
+        height: 60px;
+        width: 60px;
+        border: 1px solid white;
+        border-radius: 50px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+    
+      
+    }
+  
+  }
