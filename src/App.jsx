@@ -5,6 +5,7 @@ import Experience from "./components/experience/experience";
 import Info from "./components/information/information";
 import SocialBtns from "./components/social-btns/social-btns";
 import Contact from "./components/contactMe/contactMe";
+import Projects from "./components/projects/projects";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <Header />
         <Info />
         <Experience />
+
+        <Projects />
         <SocialBtns />
         <Contact />
       </div>

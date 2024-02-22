@@ -1,194 +1,161 @@
-.buttonsTop{
+.buttonsTop {
     display: flex;
     flex-direction: row;
-  justify-content: flex-start;
- margin-left:50px;
- margin-top: 10px;
-gap:2px;
-   width: 90px;
-   height: 80px;
+    justify-content: flex-start;
+    margin-left: 5px;
+    margin-top: 10px;
+    gap: 2px;
+    width: 90px;
+    height: 80px;
+    font-size: 10px;
 
-  
-  color: black;
-
+    color: burlywood;
 }
 
+.projects {
+    margin-bottom: 20px;
+    border-radius: 14px;
+    margin-top: 10px;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
 
-
-
-.projects{
-
-   
-
-    background: linear-gradient(90deg, #b38b6d 2.62%, #965a3e 93.38%);
-margin-bottom: 20px;
-border-radius: 14px;
-margin-top: 10px;
-padding: 12px;
-text-decoration: none;
-text-align: center;
-
-
-font-size: 10px;
-
-text-transform: uppercase;
-border: none;
-cursor: pointer;
-   
+    font-size: 10px;
+    color: burlywood;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
 }
 
-.myResume{
-
-   
-
-    background: linear-gradient(90deg, #b38b6d 2.62%, #965a3e 93.38%);
-margin-bottom: 20px;
-border-radius: 14px;
-margin-left: 20px;
-margin-top: 10px;
-padding: 12px;
-text-decoration: none;
-text-align: center;
-
-
-font-size: 10px;
-
-text-transform: uppercase;
-border: none;
-cursor: pointer;
-   
-}
-
-.talkToMe{
-
-
-margin-left: 20px;
-margin-top: 10px;
-background: linear-gradient(90deg, #b38b6d 2.62%, #965a3e 93.38%);
-margin-bottom: 20px;
-border-radius: 14px;
-padding: 12px;
-text-decoration: none;
-text-align: center;
-
-font-size: 10px;
-text-transform: uppercase;
-border: none;
-cursor: pointer;
-
-}
-
-.Flavio{
-
+.myResume {
+    margin-bottom: 20px;
+    border-radius: 14px;
     margin-left: 20px;
-margin-top: 10px;
-background: linear-gradient(90deg, #b38b6d 2.62%, #965a3e 93.38%);
-margin-bottom: 20px;
-border-radius: 14px;
-padding: 12px;
-text-decoration: none;
-text-align: center;
-color:black;
-font-size: 10px;
-text-transform: uppercase;
-border: none;
-cursor: pointer;
+    margin-top: 10px;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+
+    font-size: 10px;
+    color: burlywood;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
 }
 
-@media (min-width: 768px){
-
- .buttonsTop {display: flex;
-    flex-direction: row;
- margin-left: 40%;
- margin-top: 10px;
-gap:20px;
-   width: 100%;
-
-  
-  color: black;}
-
-
-
-
-
-
-.projects{
-
-   
-
-    background: linear-gradient(90deg, #b38b6d 2.62%, #965a3e 93.38%);
-margin-bottom: 20px;
-border-radius: 24px;
-margin-top: 10px;
-padding: 12px;
-text-decoration: none;
-text-align: center;
-color: black;
-
-font-size: 15px;
-
-text-transform: uppercase;
-border: none;
-cursor: pointer;
-   
-}
-
-.myResume{
-
-   
-
-    background: linear-gradient(90deg, #b38b6d 2.62%, #965a3e 93.38%);
-margin-bottom: 20px;
-border-radius: 24px;
-margin-left: 20px;
-margin-top: 10px;
-padding: 12px;
-text-decoration: none;
-text-align: center;
-color: black;
-
-
-font-size: 15px;
-
-text-transform: uppercase;
-border: none;
-cursor: pointer;
-   
-}
-
-.talkToMe{
-
-
-margin-left: 20px;
-margin-top: 10px;
-background: linear-gradient(90deg, #b38b6d 2.62%, #965a3e 93.38%);
-margin-bottom: 20px;
-border-radius: 24px;
-padding: 12px;
-text-decoration: none;
-text-align: center;
-color:black;
-font-size: 15px;
-text-transform: uppercase;
-border: none;
-cursor: pointer;
-
-}
-
-.Flavio{
-
+.talkToMe {
     margin-left: 20px;
-margin-top: 10px;
-background: linear-gradient(90deg, #b38b6d 2.62%, #965a3e 93.38%);
-margin-bottom: 20px;
-border-radius: 24px;
-padding: 12px;
-text-decoration: none;
-text-align: center;
-color:black;
-font-size: 15px;
-text-transform: uppercase;
-border: none;
-cursor: pointer;
+    margin-top: 10px;
 
-}}
+    margin-bottom: 20px;
+    border-radius: 14px;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+    color: burlywood;
+    font-size: 10px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.Flavio {
+    margin-left: 20px;
+    margin-top: 10px;
+
+    margin-bottom: 20px;
+    border-radius: 14px;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+    color: burlywood;
+    font-size: 10px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonsTop a:hover {
+    color: #c51111;
+    font-size: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+@media (min-width: 768px) {
+    .buttonsTop {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        gap: 20px;
+        width: 100%;
+
+        color: burlywood;
+    }
+
+    .projects {
+        margin-bottom: 20px;
+
+        margin-top: 10px;
+        padding: 12px;
+        text-decoration: none;
+        text-align: center;
+        color: burlywood;
+
+        font-size: 25px;
+
+        text-transform: uppercase;
+        border: none;
+        cursor: pointer;
+    }
+
+    .myResume {
+        margin-bottom: 20px;
+        border-radius: 24px;
+        margin-left: 20px;
+        margin-top: 10px;
+        padding: 12px;
+        text-decoration: none;
+        text-align: center;
+        color: burlywood;
+
+        font-size: 25px;
+
+        text-transform: uppercase;
+        border: none;
+        cursor: pointer;
+    }
+
+    .talkToMe {
+        margin-left: 20px;
+        margin-top: 10px;
+
+        margin-bottom: 20px;
+        border-radius: 24px;
+        padding: 12px;
+        text-decoration: none;
+        text-align: center;
+        color: burlywood;
+        font-size: 25px;
+        text-transform: uppercase;
+        border: none;
+        cursor: pointer;
+    }
+
+    .Flavio {
+        margin-left: 20px;
+        margin-top: 10px;
+
+        margin-bottom: 20px;
+        border-radius: 24px;
+        padding: 12px;
+        text-decoration: none;
+        text-align: center;
+        color: burlywood;
+        font-size: 25px;
+        text-transform: uppercase;
+        border: none;
+        cursor: pointer;
+    }
+}

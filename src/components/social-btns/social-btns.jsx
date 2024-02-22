@@ -2,22 +2,18 @@ import "./social-btns.css";
 import { GitHubIcon } from "../icons/github-icon";
 import { InstaIcon } from "../icons/insta-icon";
 import { LinkedInIcon } from "../icons/linkedin-icon";
-import { TwitterIcon } from "../icons/twiter-icon";
 
 export function SocialBtns() {
   return (
     <div className="social">
-      <a href="">
+      <a href="https://www.instagram.com/invites/contact/?i=1kj4nxbg92dyl&utm_content=obrb7d9">
         <InstaIcon />
       </a>
-      <a href="https://linkedin.com/in/fláviodamata">
+      <a href="https://www.linkedin.com/in/fl%C3%A1viodamata/">
         <LinkedInIcon />
       </a>
       <a href="https://github.com/Damatta22">
         <GitHubIcon />
-      </a>
-      <a href="">
-        <TwitterIcon />
       </a>
     </div>
   );

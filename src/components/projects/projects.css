@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.projectsPage {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5%;
+    margin-top: 15px;
+}
+
+.projectsPage hr {
+    margin-top: 70px;
+
+    margin-left: calc(9%);
+}
+
+.projectsPage h1 {
+    font-size: 38px;
+    text-align: center;
+    color: burlywood;
+    padding: 20px;
+}
+.link-projects-git {
+    padding: 5%;
+    color: burlywood;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.link-projects-git img {
+    border-radius: 15px;
+}
+.link-projects-git img:hover {
+    width: 310px;
+    height: 310px;
+    opacity: 60%;
+    transition: 0.5s ease-in-out;
+}
+
+.firstLineLink {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.secondLineLink {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.secondLineLink img {
+    border-radius: 15px;
+}
+.thirdLineLink {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+.thirdLineLink img {
+    border-radius: 15px;
+}
+
+@media (max-width: 1200px) {
+    .firstLineLink {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .secondLineLink {
+        margin-top: 5px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .thirdLineLink {
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
