@@ -42,7 +42,7 @@ function Projects() {
 
         <a
           className="link-projects-git"
-          href="https://github.com/Damatta22/BaseForFreela.git"
+          href="https://flaviodamata-mariofreela.netlify.app/"
         >
           Landing page comerce
           <img
@@ -57,7 +57,7 @@ function Projects() {
       <div className="secondLineLink">
         <a
           className="link-projects-git"
-          href="https://github.com/Damatta22/Body-Mass-Index.git"
+          href="https://flaviodamata-bodymassindex.netlify.app/"
         >
           Body mass index
           <img src={Imc} width={300} height={300} alt="project-imc" />
@@ -78,7 +78,7 @@ function Projects() {
 
         <a
           className="link-projects-git"
-          href="https://github.com/Damatta22/React-busca-de-CEP.git"
+          href="https://flaviodamata-findyourcep.netlify.app/"
         >
           Find your cep
           <img src={CEP} width={300} height={300} alt="project-busca-cep" />
@@ -88,7 +88,7 @@ function Projects() {
       <div className="thirdLineLink">
         <a
           className="link-projects-git"
-          href="https://github.com/Damatta22/previs-o-dev.git"
+          href="https://flaviodamata-weatherforecast.netlify.app/"
         >
           Weather forecast
           <img
@@ -101,7 +101,7 @@ function Projects() {
 
         <a
           className="link-projects-git"
-          href="https://github.com/Damatta22/web_server_siemens.git"
+          href="https://flaviodamata-siemenswebserver.netlify.app/"
         >
           Siemens project
           <img
@@ -114,7 +114,7 @@ function Projects() {
 
         <a
           className="link-projects-git"
-          href="https://github.com/Damatta22/Easy-Shopping.git"
+          href="https://flaviodamata-easyshop.netlify.app/"
         >
           Easy shopping
           <img src={Easy} width={300} height={300} alt="Easy-Shop" />
