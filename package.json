@@ -1,5 +1,5 @@
 {
-  "homepage": "https://damatta22.github.io/Flavio-da-Mata/",
+  "homepage": "https://Damatta22.github.io/Flavio-da-Mata/",
   "name": "portifolio",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
