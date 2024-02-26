@@ -11,7 +11,7 @@ export function Experience() {
       <hr className="divisor" />
       <br />
       <p>
-        <h2>ABOUT ME</h2> <br></br>
+        <h2 className="about">ABOUT ME</h2> <br></br>
         I´m passionate about creating intuitive and attractive interfaces.
         Throughout my freelance career, I´ve had the opportunity to work on a
         variety of challenging projects that have allowed me to hone my skills

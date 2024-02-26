@@ -6,7 +6,9 @@ export function ButtonsTop() {
     <div className="buttonsTop">
       <a className="projects">Projects</a>
       <a className="myResume">My Resume</a>
-      <a className="talkToMe">Talk To Me</a>
+      <a href="mailto:flaviodamataflv@gmail.com" className="talkToMe">
+        Talk To Me
+      </a>
       <a
         className="Flavio"
         href="https://drive.google.com/file/d/1uJzavHkagm5W138zIKz8Ir-Vt83tBCOp/view?usp=sharing"

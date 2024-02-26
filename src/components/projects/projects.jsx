@@ -16,7 +16,7 @@ function Projects() {
       <div className="firstLineLink">
         <a
           className="link-projects-git"
-          href="https://github.com/Damatta22/hamburgueria-front-end.git"
+          href="https://damatta22.github.io/hamburgueria-front-end/"
         >
           Hamburgeria front-end
           <img
@@ -65,7 +65,7 @@ function Projects() {
 
         <a
           className="link-projects-git"
-          href="https://github.com/Damatta22/rocket-games.git"
+          href="https://damatta22.github.io/rocket-games/"
         >
           Rocket games
           <img
