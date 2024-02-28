@@ -11,7 +11,7 @@ export function ButtonsTop() {
       </a>
       <a
         className="Flavio"
-        href="https://drive.google.com/file/d/1uJzavHkagm5W138zIKz8Ir-Vt83tBCOp/view?usp=sharing"
+        href="https://drive.google.com/file/d/12cmFYFbYPq0E682ZdP5a1aR23DsKOIEu/view?usp=sharing"
       >
         Download-CV
       </a>
