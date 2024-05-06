@@ -1,12 +1,25 @@
 import "./buttonsTop.css";
 import Whats from "../../assets/whats.png";
+import { Link } from "react-scroll";
 
 export function ButtonsTop() {
   return (
-    <div className="buttonsTop">
-      <a className="projects">Projects</a>
-      <a className="myResume">My Resume</a>
-      <a href="mailto:flaviodamataflv@gmail.com" className="talkToMe">
+    <nav className="buttonsTop">
+      <Link
+        to="../projects/projects.jsx"
+        spy={true}
+        smooth={true}
+        offset={-100}
+        onClick={Link}
+        className="projects"
+      >
+        Projects
+      </Link>
+
+      <a href="#about" className="myResume">
+        My Resume
+      </a>
+      <a href="#btn-primary" className="talkToMe">
         Talk To Me
       </a>
       <a
@@ -22,7 +35,7 @@ export function ButtonsTop() {
       >
         <img src={Whats} width={60} height={60} alt="whatsapplink" />
       </a>
-    </div>
+    </nav>
   );
 }
 

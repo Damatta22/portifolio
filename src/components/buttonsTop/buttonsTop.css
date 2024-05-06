@@ -76,8 +76,8 @@
 }
 
 .buttonsTop a:hover {
-    color: #c51111;
-    font-size: 10px;
+    color: #ded1d1;
+    font-size: 30px;
     transition: 0.5s ease-in-out;
 }
 
