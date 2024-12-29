@@ -6,7 +6,8 @@ export function Header() {
     <>
       <div className="header">
         <h1>
-          Hi!👋<br></br> I´m Flávio da Mata!<br></br>Front-end Developer
+          Hi!👋<br></br> I´m Flávio da Mata!<br></br>Full-Stack and Mobile
+          Developer
         </h1>
 
         <img

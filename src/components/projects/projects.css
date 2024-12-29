@@ -1,90 +1,40 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.projectsPage {
-    width: 100%;
-    height: 100%;
-    margin-bottom: 5%;
-    margin-top: 15px;
-}
-
-.projectsPage hr {
-    margin-top: 70px;
-
-    margin-left: calc(9%);
-}
-
-.projectsPage h1 {
-    font-size: 38px;
-    text-align: center;
-    color: burlywood;
-    padding: 20px;
-}
-.link-projects-git {
-    padding: 5%;
-    color: burlywood;
-    font-size: 20px;
+.projectsContainer {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .title{
     text-align: center;
-    flex-direction: column;
+    color:burlywood ;
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+  
+  .link-projects-git {
+    width: 30%;
+    max-width: 300px;
+    text-align: center;
     text-decoration: none;
-}
-
-.link-projects-git img {
-    border-radius: 15px;
-}
-.link-projects-git img:hover {
-    width: 310px;
-    height: 310px;
-    opacity: 60%;
-    transition: 0.5s ease-in-out;
-}
-
-.firstLineLink {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-}
-
-.secondLineLink {
-    margin-top: 5px;
-    display: flex;
-    align-items: center;
-}
-
-.secondLineLink img {
-    border-radius: 15px;
-}
-.thirdLineLink {
-    margin-top: 5px;
-    display: flex;
-    align-items: center;
-}
-.thirdLineLink img {
-    border-radius: 15px;
-}
-
-@media (max-width: 1200px) {
-    .firstLineLink {
-        margin-top: 20px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
+    color: burlywood;
+    font-size: 18px;
+  }
+  
+  .link-projects-git img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .link-projects-git img:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+  }
+  
+  @media (max-width: 768px) {
+    .link-projects-git {
+      width: 100%;
     }
-
-    .secondLineLink {
-        margin-top: 5px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-    .thirdLineLink {
-        margin-top: 5px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
+  }
+  

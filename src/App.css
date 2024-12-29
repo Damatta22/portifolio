@@ -1,28 +1,21 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-   
-  }
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
-  .body{
-    width: 100vw;
-  }
+.body {
+  width: 100vw;
+}
 
-  
-  .wrapper{
+.wrapper {
+  background-image: url(./assets/fundoPortifolio.jpg);
+  background-size: auto;
+  overflow: hidden;
+}
 
-   
-    background-image: url(./assets/parede-o-padrão.jpg);
-    background-size: cover;
-    overflow: hidden;
-    
- 
- 
-  }
-
-  .divisor{
-    background: linear-gradient(90deg, #2ad1f8 2.62%, #8a58b9 93.38%);
-    width:80vw;
-    height: 5px;
-  }
+.divisor {
+  background: linear-gradient(90deg, #2ad1f8 2.62%, #8a58b9 93.38%);
+  width: 80vw;
+  height: 5px;
+}

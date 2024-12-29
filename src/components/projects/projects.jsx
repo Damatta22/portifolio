@@ -10,118 +10,91 @@ import Easy from "../../assets/easyshop.png";
 import Estic from "../../assets/medidorEstic.png";
 
 function Projects() {
+  const projects = [
+    {
+      title: "Hamburgeria front-end",
+      link: "https://damatta22.github.io/hamburgueria-front-end/",
+      imgSrc: Hamburgeria,
+      imgAlt: "picture-hamburgeria",
+    },
+    {
+      title: "Hamburgeria back-end",
+      link: "https://github.com/Damatta22/hamburgueria-back-end.git",
+      imgSrc: BackEndHamb,
+      imgAlt: "picture-hamburgeria-back-end",
+    },
+    {
+      title: "Landing page commerce",
+      link: "https://flaviodamata-mariofreela.netlify.app/",
+      imgSrc: Frella,
+      imgAlt: "project-frella-mario",
+    },
+    {
+      title: "Siemens project",
+      link: "https://flaviodamata-siemenswebserver.netlify.app/",
+      imgSrc: Estic,
+      imgAlt: "picture-siemens-project",
+    },
+    {
+      title: "Easy shopping",
+      link: "https://flaviodamata-easyshop.netlify.app/",
+      imgSrc: Easy,
+      imgAlt: "Easy-Shop",
+    },
+
+    {
+      title: "Body mass index",
+      link: "https://flaviodamata-bodymassindex.netlify.app/",
+      imgSrc: Imc,
+      imgAlt: "project-imc",
+    },
+    {
+      title: "Rocket games",
+      link: "https://damatta22.github.io/rocket-games/",
+      imgSrc: Rocket,
+      imgAlt: "picture-rocket-games",
+    },
+    {
+      title: "Find your cep",
+      link: "https://flaviodamata-findyourcep.netlify.app/",
+      imgSrc: CEP,
+      imgAlt: "project-busca-cep",
+    },
+    {
+      title: "Weather forecast",
+      link: "https://flaviodamata-weatherforecast.netlify.app/",
+      imgSrc: Prevision,
+      imgAlt: "project-prevision",
+    },
+  ];
+
   return (
-    <div className="projectsPage">
-      <h1 className="My projects">Projects</h1>
-      <div className="firstLineLink">
-        <a
-          className="link-projects-git"
-          href="https://damatta22.github.io/hamburgueria-front-end/"
-        >
-          Hamburgeria front-end
-          <img
-            src={Hamburgeria}
-            width={300}
-            height={300}
-            alt="picture-hamburgeria"
-          />
-        </a>
-
-        <a
-          className="link-projects-git"
-          href="https://github.com/Damatta22/hamburgueria-back-end.git"
-        >
-          Hamburgeria back-end
-          <img
-            src={BackEndHamb}
-            width={300}
-            height={300}
-            alt="picture-hamburgeria-back-end"
-          />
-        </a>
-
-        <a
-          className="link-projects-git"
-          href="https://flaviodamata-mariofreela.netlify.app/"
-        >
-          Landing page comerce
-          <img
-            src={Frella}
-            width={300}
-            height={300}
-            alt="project-frella-mario"
-          />
-        </a>
+    <>
+      <div className="title">
+        <h1>PROJECTS</h1>
       </div>
-
-      <div className="secondLineLink">
-        <a
-          className="link-projects-git"
-          href="https://flaviodamata-bodymassindex.netlify.app/"
-        >
-          Body mass index
-          <img src={Imc} width={300} height={300} alt="project-imc" />
-        </a>
-
-        <a
-          className="link-projects-git"
-          href="https://damatta22.github.io/rocket-games/"
-        >
-          Rocket games
-          <img
-            src={Rocket}
-            width={300}
-            height={300}
-            alt="picture-rocket-games"
-          />
-        </a>
-
-        <a
-          className="link-projects-git"
-          href="https://flaviodamata-findyourcep.netlify.app/"
-        >
-          Find your cep
-          <img src={CEP} width={300} height={300} alt="project-busca-cep" />
-        </a>
+      <div className="projectsPage">
+        <div className="projectsContainer">
+          {projects.map((project, index) => (
+            <a
+              key={index}
+              className="link-projects-git"
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p>{project.title}</p>
+              <img
+                src={project.imgSrc}
+                alt={project.imgAlt}
+                width={300}
+                height={300}
+              />
+            </a>
+          ))}
+        </div>
       </div>
-
-      <div className="thirdLineLink">
-        <a
-          className="link-projects-git"
-          href="https://flaviodamata-weatherforecast.netlify.app/"
-        >
-          Weather forecast
-          <img
-            src={Prevision}
-            width={300}
-            height={300}
-            alt="project-prevision"
-          />
-        </a>
-
-        <a
-          className="link-projects-git"
-          href="https://flaviodamata-siemenswebserver.netlify.app/"
-        >
-          Siemens project
-          <img
-            src={Estic}
-            width={300}
-            height={300}
-            alt="picture-rocket-games"
-          />
-        </a>
-
-        <a
-          className="link-projects-git"
-          href="https://flaviodamata-easyshop.netlify.app/"
-        >
-          Easy shopping
-          <img src={Easy} width={300} height={300} alt="Easy-Shop" />
-        </a>
-      </div>
-      <hr className="divisor" />
-    </div>
+    </>
   );
 }
 

@@ -12,15 +12,17 @@ export function Experience() {
       <br />
       <p>
         <h2 className="about">ABOUT ME</h2> <br></br>
-        I´m passionate about creating intuitive and attractive interfaces.
-        Throughout my freelance career, I´ve had the opportunity to work on a
-        variety of challenging projects that have allowed me to hone my skills
-        and develop a deep understanding of front-end design and development
-        best practices. My previous experiences were essential for my
-        professional and personal development, having a good relationship with
-        co-workers and clientes. Completely open to constructive criticism,
-        responsibility and corporate mentality. Working as a team is my focus
-        for exchanging knowledge and learning.
+        I have a degree in Electrical Technician and Industrial Automation
+        Technician, with more than five years of experience in the automation
+        area. I'm currently studying Systems Analysis and Development, where I
+        started my studies in web programming and discovered a great passion for
+        software development. Since then, I have been dedicating myself to
+        improving in this area, taking parallel courses focused on full-stack
+        development and deepening my knowledge in mobile development, especially
+        with React Native. My goal is to combine my previous technical skills
+        with programming skills, contributing to the creation of innovative and
+        functional solutions. I'm motivated by challenges and excited to
+        continue learning and evolving as a developer.
         <br />
         Technologies: Java Script/ Html/ Css/ React JS/ React Native/Node
         JS/Nodemon/Axios/Git/ Git Hub/Insomnia/Styled Components/Typescript/

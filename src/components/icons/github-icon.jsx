@@ -1,6 +1,6 @@
 export function GitHubIcon() {
   return (
-    <svg
+    <svg className="social"
       width="18"
       height="20"
       viewBox="0 0 18 20"
