@@ -12,7 +12,7 @@ export function ButtonsTop() {
         offset={-100}
         className="projects"
       >
-        My Resume
+        Resume
       </Link>
 
       <Link
@@ -40,7 +40,7 @@ export function ButtonsTop() {
         href="https://drive.google.com/file/d/1I7BqarNwIa7ElmdY06kYSyCVX8ijoWJC/view?usp=sharing"
         aria-label="Baixar Currículo"
       >
-        Download-CV
+        Download Resume
       </a>
 
       <a

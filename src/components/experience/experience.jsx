@@ -4,6 +4,8 @@ import ReactImage from "../../assets/react.png";
 import HtmlImage from "../../assets/html.png";
 import JsImage from "../../assets/js.png";
 import TsImage from "../../assets/ts.png";
+import NativeImage from "../../assets/native.png"
+import kotlinImage from "../../assets/kotlin.jpg"
 
 export function Experience() {
   return (
@@ -36,7 +38,7 @@ export function Experience() {
           <img src={HtmlImage} alt="Html Logo" width={40} height={40} />
           <div className="experience-unit">
             <div className="experience-measure measure-3">
-              <span>2 year</span>
+              <span>3 year</span>
             </div>
           </div>
         </div>
@@ -45,7 +47,7 @@ export function Experience() {
           <img src={CssImage} alt="Css Logo" width={40} height={40} />
           <div className="experience-unit">
             <div className="experience-measure measure-3">
-              <span>2 year</span>
+              <span>3 year</span>
             </div>
           </div>
         </div>
@@ -53,8 +55,8 @@ export function Experience() {
         <div className="experience-languages">
           <img src={ReactImage} alt="React Logo" width={40} height={40} />
           <div className="experience-unit">
-            <div className="experience-measure measure-2">
-              <span>1 year</span>
+            <div className="experience-measure measure-3">
+              <span>3 year</span>
             </div>
           </div>
         </div>
@@ -64,13 +66,33 @@ export function Experience() {
 
           <div className="experience-unit">
             <div className="experience-measure measure-3">
-              <span>2 year</span>
+              <span>3 year</span>
             </div>
           </div>
         </div>
 
         <div className="experience-languages">
           <img src={TsImage} alt="Ts Logo" width={40} height={40} />
+
+          <div className="experience-unit">
+            <div className="experience-measure measure-2">
+              <span>1 year</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="experience-languages">
+          <img src={kotlinImage} alt="Ts Logo" width={40} height={40} />
+
+          <div className="experience-unit">
+            <div className="experience-measure measure-2">
+              <span>1 year</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="experience-languages">
+          <img src={NativeImage} alt="Ts Logo" width={40} height={40} />
 
           <div className="experience-unit">
             <div className="experience-measure measure-2">
