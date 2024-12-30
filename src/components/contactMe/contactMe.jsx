@@ -1,12 +1,12 @@
 import "./contactMe.css";
 import { EmailIcon } from "../icons/email-icon";
-import { Link } from "react-scroll"; // Certifique-se de que está importado
+import { Link } from "react-scroll"; 
 
 export function Contact() {
   return (
     <nav className="contactNav">
       <Link
-        to="btn-primary" // Certifique-se de que o ID existe no elemento de destino
+        to="btn-primary" 
         spy={true}
         smooth={true}
         offset={-100}

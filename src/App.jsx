@@ -6,6 +6,7 @@ import Info from "./components/information/information";
 import SocialBtns from "./components/social-btns/social-btns";
 import Contact from "./components/contactMe/contactMe";
 import Projects from "./components/projects/projects";
+import Certify from "./components/projects/Certifications/certify";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Info />
         <Experience />
         <Projects />
+        <Certify />
         <SocialBtns />
         <Contact />
       </div>

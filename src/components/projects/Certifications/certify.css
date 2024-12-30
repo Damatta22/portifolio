@@ -1,0 +1,31 @@
+.certifyContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 8%;
+  }
+
+  .title{
+    text-align: center;
+    color:burlywood ;
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+  .certifyPage {
+    color:burlywood ;
+  }
+  .divisor {
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .link-certify-git img:hover {
+    transform: scale(1.50);
+    opacity: 0.8;
+  }
+  
+ 
+  
+ 
+  
