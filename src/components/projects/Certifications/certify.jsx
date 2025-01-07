@@ -4,6 +4,7 @@ import EnSant from "../../../assets/englishSantander.png"
 import Backend from "../../../assets/backEnd.png"
 import Front from "../../../assets/cursoemvideo.png"
 import Senaifront from "../../../assets/senaiFront.png"
+import JavaCurso from "../../../assets/CertificadoJavaScript.png"
 
 
 function Certify (){
@@ -29,6 +30,11 @@ function Certify (){
             title: "Front-end Course",
             imgSrc: Front,
             imgAlt: "Front-endcertificadoimg",
+          },
+          {
+            title: "Javascript-cursoemvideo",
+            imgSrc: JavaCurso,
+            imgAlt: "JavaScriptCurso",
           },
           {
             title: "Front-end Senai",
