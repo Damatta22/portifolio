@@ -1,5 +1,5 @@
 import "./certify.css";
-import Preply from "../../../assets/30hours.png"
+import Preply from "../../../assets/Preply40hours.png"
 import EnSant from "../../../assets/englishSantander.png"
 import Backend from "../../../assets/backEnd.png"
 import Front from "../../../assets/cursoemvideo.png"
