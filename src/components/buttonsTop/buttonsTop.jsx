@@ -37,7 +37,7 @@ export function ButtonsTop() {
 
       <a
         className="Flavio"
-        href="https://drive.google.com/file/d/1RfUvxdZ9zSzmORebOBwOLMVB93Mfe8kl/view?usp=drive_link"
+        href="https://drive.google.com/file/d/1RipAn7BvfzfJsHulyH_AtpRRc7OKafZQ/view?usp=sharing"
         aria-label="Baixar Currículo"
       >
         Download Resume
